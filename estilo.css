@@ -9,6 +9,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
+    text-align:justify;
    
 }
 a{
@@ -91,14 +92,14 @@ header p{
 }
 .section
 {
+    margin-bottom: 20px;
     background-color: #b7e4f1;
     text-align: center;
     font-size:x-large;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
  
     
-    margin-left: none;
-    margin-right: none;
+
 }
 
 
@@ -112,6 +113,8 @@ header p{
     grid-template-columns: 1fr 1fr 1fr;
     font-size:medium;
     gap: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .img2{
     width: 400px;
@@ -122,6 +125,43 @@ header p{
 }
 section h1{
     font-size:xx-large; 
+}
+.title{
+    font-size:xx-large; 
+    margin-right: 60px;
+}
+.parrf{
+    margin-right: 60px;
+    bottom: -20px;
+}
+.tabla{
+    border-collapse: collapse;
+    width: 50%;
+    padding: 15%;
+ }
+
+.tabla th, .tabla td {
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+footer ul{
+    width: 32% ;
+    padding: 10px;
+    float: right;
+    margin-left: 6px;
+}
+footer ul h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    display: inline-block;
 }
 
 
