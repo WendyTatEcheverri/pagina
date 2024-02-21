@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #252555;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+section{
+    background: white;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 30px;
+    padding-bottom: 50px;
+  
+
+}
+.logo
+{
+    width: 200px;
+}
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 20px;
+}
+.nav-main ul.nav-menu
+{
+    flex: 30;
+    margin-left: 90px;
+}
+/*botones menu*/
+.btn1{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+     font-size: larger;
+}
+.btn2{
+    border: none; 
+    color: rgb(255, 255, 255); 
+    padding:  10px 20px; 
+    cursor: pointer; 
+    border-radius: 15px; 
+    font-size: larger;
+}
+.secondary {background-color: #252555; border: 2px solid #e7e7e7;} 
+.secondary:hover {background: #ddd; color: white;}
+.img1{
+    clip-path: circle(50%);
+    width: 400px;
+    height: 400px;
+    float:right
+}
+header{
+    padding-bottom: 50px;
+}
+header h1  {
+    font-size:400%;
+    padding-bottom: 50px;
+    
+}
+header p{
+    font-size:mediume;
+    padding-bottom: 50px;
+    bottom: -20px;
+}
+.section
+{
+    background-color: #b7e4f1;
+    text-align: center;
+    font-size:x-large;
+    padding-bottom: 50px;
+ 
+    
+    margin-left: none;
+    margin-right: none;
+}
+
+
+.section p{
+    font-size:medium;
+    bottom: -10px;
+    padding-bottom: 50px;
+}
+.cuadros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size:medium;
+    gap: 25px;
+}
+.img2{
+    width: 400px;
+    height: 300px;
+    float:left;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+section h1{
+    font-size:xx-large; 
+}
+
+
+
